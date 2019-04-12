@@ -1,0 +1,30 @@
+#btnTop {
+    background-color: aqua;
+    font-size: 1em;
+    top: 0;
+    margin: 50px
+}
+
+#divvy {
+    height: 200px;
+    width: 200px;
+    background: turquoise;
+}
+
+p {
+    color: slateblue;
+}
+
+#anotherBtnId {
+    background-color:palevioletred;
+    font-size: 1em;
+}
+#emptyDivId {
+    height: 200px;
+    width: 200px;
+    background: maroon;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
