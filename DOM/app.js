@@ -1,4 +1,4 @@
-// Task #1
+    // Task #1
 document.addEventListener('DOMContentLoaded', function () {
     let btn = document.createElement('button');
     document.body.appendChild(btn);
@@ -47,20 +47,20 @@ document.addEventListener('DOMContentLoaded', function () {
         emptyDiv.appendChild(name);
         name.appendChild(nameText);
     })
-
+    //Task #6
     let amigos = ['dasher', 'dancer', 'prancer', 'vixen', 'comet', 'cupid', 'donner', 'blitzen', 'rudolph', 'olive'];
     let amigoCount = 0;
 
     document.getElementById('lastBtn').addEventListener('click', function friendList() {
-        if (amigoCount <= amigos.length) {
+        if (amigoCount >= 10) {
             return;
         }
-        amigoCount++;
+        ;
         console.log('worked');
         let list = document.getElementById('listy');
         let listItem = document.createElement('li');
-        let itemText = document.createTextNode(amigos[0]);
-
+        let itemText = document.createTextNode(amigos[amigoCount]);
+        amigoCount++
 
         list.appendChild(listItem);
         listItem.appendChild(itemText);
