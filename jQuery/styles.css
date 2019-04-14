@@ -1,0 +1,27 @@
+
+#btn2 {
+    background-color: green;
+    height: 40px;
+    width: 100px; 
+}
+
+#emptyDiv {
+    height: 200px;
+    width: 200px;
+    background-color: lightsteelblue;
+    text-align: center;
+    padding-top: 20px;
+    border: solid black 5px;
+}
+
+#btn3 {
+    background-color: blueviolet;
+    height: 80px;
+    width: 160px; 
+}
+
+#lastBtn {
+    background-color:cyan;
+    height: 80px;
+    width: 160px; 
+}
